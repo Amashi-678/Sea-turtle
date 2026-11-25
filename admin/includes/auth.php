@@ -6,7 +6,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 if (!isset($_SESSION['admin_id'])) {
 
-    header("Location: /sea_turtle_project/pages/login.php");
+    header("Location: /Turtle-Haven/Sea-turtle/pages/login.php");
     exit;
 
 }
